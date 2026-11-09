@@ -107,7 +107,12 @@ header.shadow {
   padding-top: 50px;
 }
 .home-img img {
-  width: 100%;
+  width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00abf0;
+    box-shadow: 0 0 20px rgba(0, 171, 240, 0.5);width: 100%;
 }
 .home-text span {
   font-size: var(--medium-font);
