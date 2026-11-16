@@ -107,14 +107,12 @@ header.shadow {
   padding-top: 50px;
 }
 .home-img img {
-   width: 350px;
-  height: 300px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #00bfff;
-  display: block;
-  margin: 0 auto;
+    width: 280px !important;
+    height: 280px !important;
+    min-width: 280px;
+    min-height: 280px;
+    border-radius: 50% !important;
+    object-fit: cover !important;
     box-shadow: 0 0 20px rgba(0, 171, 240, 0.5);width: 100%;
 }
 .home-text span {
